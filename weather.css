@@ -1,0 +1,122 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+}
+body {
+    background: linear-gradient(to right, purple, blue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#img {
+    background-color: white;
+    margin-left: 20px; 
+    padding: 10px;
+    border-radius: 50%;
+}
+
+input:focus{
+    background-color: rgb(231, 116, 9);
+}
+
+input {
+    width: 300px;
+    border-radius: 20px;
+    padding-left:20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#img:hover {
+   background-color: rgb(170, 255, 0);
+   cursor:pointer;
+}
+
+#searchb {
+    display: flex;
+    margin: 10px;
+}
+#page{
+    border:2px solid black;
+    padding:40px;
+    background: linear-gradient(45deg, red, aqua);
+}
+.temp{
+    text-align: center;
+    color:white;
+    font-size:50px;
+    text-shadow:2px 1px  white;
+}
+.location{
+    padding:0px;
+    text-align: center;
+    color:white;
+    font-size:40px;
+    text-shadow:2px 1px  white;
+}
+#humidity{
+    display:flex;
+}
+#humidity p {
+    margin-left: 20px;
+    margin-top:10px;
+    color:white;
+    font-size:35px;
+    font-weight:bold;
+    margin-bottom:0px;
+}
+#humidity img{
+    position:relative;
+    top:30px;
+}
+#humidity h4{
+    color:white;
+    margin-top: 0px;
+    padding-left:20px;
+    padding-top:5px;
+    font-size:20px;
+}
+
+#wind{
+    display:flex;
+}
+#wind p {
+    margin-left: 20px;
+    margin-top:10px;
+    color:white;
+    font-size:35px;
+    font-weight:bold;
+    margin-bottom:0px;
+}
+#wind img{
+    position:relative;
+    top:30px;
+}
+#wind h4{
+    color:white;
+    margin-top: 0px;
+    padding-left:20px;
+    padding-top:5px;
+    font-size:20px;
+}
+#elem{
+    display:flex;
+    gap:80px;
+}
+
+#disp{
+    display: none;
+}
+
+#error {
+    color: rgb(60, 0, 255);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}

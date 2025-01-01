@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div id="body">
+        <div id="page">
+            <h1>Weather App</h1>
+            <div id="searchb">
+                <input type="text" placeholder="enter place" id="place">
+                <img id="img"src="images/search.png" height="25">
+            </div>
+
+            <div id="error">City not found! Please enter a valid city name.</div>
+
+            <div id="disp">
+                <img src="images/clouds.png" id="weather" height="150" style="background:none; padding-left:155px;">
+                <div class="temp">
+                    <p id="temp" style="display:inline-block; margin-top:0px;">2</p>°c
+                </div>
+
+                <div class="location">
+                    <p style="margin-top:0px;" id="loc"> New York</p>
+                </div>
+
+                <div id="elem">
+                    <div id="humidity">
+                        <img src="images/humidity.png" style="background:none;" height="50">
+                        <div id="humiditylevel">
+                            <p>50</p>
+                            <h4>Humidity</h4>
+                        </div>
+                    </div>
+
+                    <div id="wind">
+                        <img src="images/wind.png" style="background:none;" height="50">
+                        <div id="windlevel">
+                            <p>4</p>
+                            <h4>Wind</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js">
+       
+    </script>
+</body>
+</html>
